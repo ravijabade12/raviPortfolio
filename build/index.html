@@ -31,9 +31,9 @@
                 </button>
 
                 <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
-                    <a href="index.html" class="hover:opacity-90">About</a>
-                    <a href="./project.html" class="hover:opacity-90">Projects</a>
-                    <a href="./contact.html" class="hover:opacity-90">Contact Me</a>
+                    <a href="#About" class="hover:opacity-90">About</a>
+                    <a href="#project" class="hover:opacity-90">Projects</a>
+                    <a href="#contact" class="hover:opacity-90">Contact Me</a>
                 </nav>
             </div>
         </section>
@@ -45,9 +45,9 @@
                 </button> -->
 
             <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile-menu">
-                <a href="index.html" class="w-full text-center py-6 hover:opacity-90">About</a>
-                <a href="./project.html" class="w-full text-center py-6 hover:opacity-90">Projects</a>
-                <a href="./contact.html" class="w-full text-center py-6 hover:opacity-90">Contact Me</a>
+                <a href="#About" class="w-full text-center py-6 hover:opacity-90">About</a>
+                <a href="#project" class="w-full text-center py-6 hover:opacity-90">Projects</a>
+                <a href="#contact" class="w-full text-center py-6 hover:opacity-90">Contact Me</a>
                 <a href="#footer" class="w-full text-center py-6 hover:opacity-90">Legal</a>
             </nav>
         </section>
@@ -55,7 +55,7 @@
 
     <!-- hero section  -->
 
-    <div class="mx-auto mt-2 max-w-screen-lg px-3 py-6">
+    <div id="About" class="mx-auto mt-2 max-w-screen-lg px-3 py-6 scroll-mt-40">
         <div class="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
             <div class="space-y-7">
                 <h1 class="text-3xl font-bold">Hi there, I'm <span
@@ -149,7 +149,7 @@
 
     <!-- projects section  -->
 
-    <div class="mx-auto mt-2 max-w-screen-lg px-3 py-6">
+    <div id="project" class="mx-auto mt-2 max-w-screen-lg px-3 py-6 scroll-mt-20">
         <div class="mb-6 text-3xl font-bold text-center sm:text-4xl">Recent
             <span class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Projects</span>
         </div>
@@ -322,6 +322,191 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+            <!-- project 4  -->
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0">
+                    <a>
+                        <img class="h-60 w-52 rounded-md hover:translate-y-1" src="./images/projectcodeEditor.png"
+                            alt="code editor" loading="lazy">
+                    </a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row">
+                        <a class="hover:text-cyan-400 text-white">
+                            <div class="text-xl font-semibold">Code Editor</div>
+                        </a>
+                        <div class="ml-3 flex flex-wrap gap-2">
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900">
+                                HTML
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">
+                                CSS
+
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">JavaScript
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">
+
+                        ● Developed a Custom Code Editor: Built a simple yet functional code editor using HTML, CSS, and
+                        JavaScript, allowing
+                        users to write and execute HTML, CSS, and JavaScript code directly within the browser. <br>
+
+                        ● Real-time Code Execution: Implemented a run() function to dynamically render HTML and CSS
+                        while executing JavaScript
+                        code, providing immediate feedback to the user by displaying the output in an embedded iframe.
+
+
+                    </p>
+                    <div class="mt-2 flex justify-center ">
+                        <button type="button"
+                            class="py-1 px-4   bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://github.com/ravijabade12/codeEditor.git">Code <img class=" inline w-8 h-8"
+                                    src="./images/icons8-github-30.png" alt=""></a>
+                        </button>
+                        <button type="button"
+                            class="py-1 px-4 ml-4  bg-red-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://ravijabade12.github.io/codeEditor/">Live <img class=" inline w-8 h-8"
+                                    src="./images/icons8-live-100.png" alt=""></a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- project 5 -->
+
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0">
+                    <a>
+                        <img class="h-60 w-52 rounded-md hover:translate-y-1" src="./images/todoproject.png"
+                            alt="code editor" loading="lazy">
+                    </a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row">
+                        <a class="hover:text-cyan-400 text-white">
+                            <div class="text-xl font-semibold">To-Do</div>
+                        </a>
+                        <div class="ml-3 flex flex-wrap gap-2">
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900">
+                                HTML
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">
+                                CSS
+
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">JavaScript
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">local
+                                Storage
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">
+
+                        ● Feature-Rich To-Do List Application: Built a To-Do List app allowing users to add, mark as
+                        complete, and delete tasks
+                        efficiently. <br>
+
+                        ● Persistent Data Storage: Implemented Google local storage to ensure tasks remain available
+                        even
+                        after a page refresh. <br>
+
+                        ● User-Friendly Interface: Designed an intuitive and responsive UI, making task management
+                        straightforward and accessible.
+
+
+                    </p>
+                    <div class="mt-2 flex justify-center ">
+                        <button type="button"
+                            class="py-1 px-4   bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://github.com/ravijabade12/To-do.git">Code <img class=" inline w-8 h-8"
+                                    src="./images/icons8-github-30.png" alt=""></a>
+                        </button>
+                        <button type="button"
+                            class="py-1 px-4 ml-4  bg-red-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://ravijabade12.github.io/To-do/">Live <img class=" inline w-8 h-8"
+                                    src="./images/icons8-live-100.png" alt=""></a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- project 6  -->
+
+
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0">
+                    <a>
+                        <img class="h-60 w-52 rounded-md hover:translate-y-1" src="./images/projectSimon.png"
+                            alt="simon game" loading="lazy">
+                    </a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row">
+                        <a class="hover:text-cyan-400 text-white">
+                            <div class="text-xl font-semibold">Simon Game</div>
+                        </a>
+                        <div class="ml-3 flex flex-wrap gap-2">
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900">
+                                HTML
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">
+                                CSS
+
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">JavaScript
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">
+
+                        ● Interactive Simon Memory Game: Built a Simon memory game using HTML, CSS, and JavaScript,
+                        focusing on creating an
+                        engaging and challenging user experience. <br>
+
+                        ● JavaScript Concepts in Action: Implemented core JavaScript topics, including functions, event
+                        handling, and the
+                        setTimeout function, to manage game logic and user interactions. <br>
+
+                        ● Enhanced with jQuery: Utilized jQuery to streamline DOM manipulation and event handling,
+                        ensuring a smooth and
+                        responsive gameplay experience.
+
+
+                    </p>
+                    <div class="mt-2 flex justify-center ">
+                        <button type="button"
+                            class="py-1 px-4   bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://github.com/ravijabade12/simonGame.git">Code <img class=" inline w-8 h-8"
+                                    src="./images/icons8-github-30.png" alt=""></a>
+                        </button>
+                        <button type="button"
+                            class="py-1 px-4 ml-4  bg-red-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white  transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <a href="https://ravijabade12.github.io/simonGame/">Live <img class=" inline w-8 h-8"
+                                    src="./images/icons8-live-100.png" alt=""></a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
 
 
         </div>
